@@ -1,0 +1,16 @@
+{
+  "name": "balldontlie-app",
+  "version": "1.0.0",
+  "description": "an app that utilizes the balldontlie-api",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dang Le",
+  "license": "ISC",
+  "dependencies": {
+    "balldontlie-api": "file:../balldontlie-api",
+    "inquirer": "^8.2.4",
+    "yargs": "^17.4.1"
+  }
+}

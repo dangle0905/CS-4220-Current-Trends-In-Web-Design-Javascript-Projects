@@ -1,0 +1,21 @@
+{
+    "name": "cards-application-server",
+    "version": "1.0.0",
+    "description": "a card server app to intereact with deck of cards api",
+    "main": "server.js",
+    "scripts": {
+        "windows": ".\\node_modules\\.bin\\nodemon server.js",
+        "start": "./node_modules/.bin/nodemon server.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "deckofcards-api": "file:../deckofcards-api",
+        "express": "^4.17.3",
+        "mongodb": "^4.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

@@ -1,0 +1,7 @@
+
+{
+    "cluster": "cluster0.50om5.mongodb.net",
+    "database": "BallDontLieApplication",
+    "username": "dbAdmin",
+    "password": "password12345"
+}

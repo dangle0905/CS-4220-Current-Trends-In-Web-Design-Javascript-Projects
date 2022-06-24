@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Ajax Request</title>
+    <meta charset="utf-8" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <button type="button" class="btn">Make Request</button>
+    <p class="response"></p>
+    <script>
+        $('.btn').click(function () {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:8888/",
+                success: function (data) {
+                    console.log(data)
+                    $('.response').text(data);
+                }
+            });
+
+        });
+    </script>
+</body>
+
+</html>

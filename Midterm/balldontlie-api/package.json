@@ -1,0 +1,15 @@
+{
+  "name": "balldontlie-api",
+  "version": "1.0.0",
+  "description": "an api for balldontlie",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dang Le",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^7.1.3",
+    "touch": "^3.1.0"
+  }
+}

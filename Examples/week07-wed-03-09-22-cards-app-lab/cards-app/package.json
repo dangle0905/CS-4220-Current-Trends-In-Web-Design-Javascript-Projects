@@ -1,0 +1,15 @@
+{
+  "name": "cards-app",
+  "version": "1.0.0",
+  "description": "a cli for drawing a card from a deck",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dang Le",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.1",
+    "yargs": "^17.3.1"
+  }
+}

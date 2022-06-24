@@ -1,0 +1,12 @@
+https://www.balldontlie.io/#introduction
+SEARCHING - https://www.balldontlie.io/api/v1/players?search=james&per_page=100
+DATA GET/FETCH - https://www.balldontlie.io/api/v1/players/237
+No API key required
+
+
+
+chorniclingamerica.log.gov
+SEARCHING - https://chroniclingamerica.loc.gov/search/titles/results/?terms=latimes&format=json
+DATA GET/FETCH - https://chroniclingamerica.loc.gov/lccn/sn81004356.json
+No API key Required
+

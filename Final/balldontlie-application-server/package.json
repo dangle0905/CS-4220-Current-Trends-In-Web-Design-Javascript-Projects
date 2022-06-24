@@ -1,0 +1,23 @@
+{
+  "name": "balldontlie-application-server",
+  "version": "1.0.0",
+  "description": "ball dont lie server to interact with balldontlie-api",
+  "main": "server.js",
+  "scripts": {
+    "windows": ".\\node_modules\\.bin\\nodemon server.js",
+    "start": "./node_modules/.bin/nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dang Le",
+  "license": "ISC",
+  "dependencies": {
+    "balldontlie-api": "file:../balldontlie-api",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.5.0",
+    "superagent": "^7.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

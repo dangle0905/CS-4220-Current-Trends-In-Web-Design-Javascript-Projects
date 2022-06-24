@@ -1,0 +1,22 @@
+{
+    "name": "snippets-application",
+    "version": "1.0.0",
+    "description": "an snippets application for querying code snippets",
+    "main": "server.js",
+    "scripts": {
+        "windows": ".\\node_modules\\.bin\\nodemon server.js",
+        "start": "./node_modules/.bin/nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Cydney Auman",
+    "license": "MIT",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}

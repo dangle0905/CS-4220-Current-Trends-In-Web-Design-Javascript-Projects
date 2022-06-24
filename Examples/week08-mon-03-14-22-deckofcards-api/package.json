@@ -1,0 +1,14 @@
+{
+  "name": "deckofcards-api",
+  "version": "1.0.0",
+  "description": "a module to interact with the deck of cards api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cydney Auman",
+  "license": "MIT",
+  "dependencies": {
+    "superagent": "^7.1.1"
+  }
+}
